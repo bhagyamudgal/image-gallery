@@ -72,7 +72,7 @@ function Header() {
       </div>
 
       {/* Menu Mobile */}
-      {!menuStatus && (
+      {menuStatus && (
         <div className="flex flex-col mt-6 items-center space-y-2 md:hidden">
           <div className="relative w-full bg-gray-100 p-1 rounded-md border-2 focus-within:border-black mb-2">
             <svg
