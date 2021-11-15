@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-banner {
+  background-image: url("components/banner-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.img-loading {
+  background: white url("components/img-loading-spinner.gif") center no-repeat;
+
+  min-height: 150px;
+}
+
+.img-modal {
+  max-height: calc(100vh - 10%);
+}

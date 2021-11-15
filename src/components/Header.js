@@ -13,7 +13,13 @@ function Header({ onClick }) {
     <header className="bg-white shadow-md py-6 px-4">
       <div className="flex justify-between items-center max-w-7xl mx-auto">
         {/* Left */}
-        <img src="/images/logo.png" alt="logo" className="h-9" />
+        <a href="/">
+          <img
+            src="/images/logo.png"
+            alt="logo"
+            className="h-9 cursor-pointer transform hover:scale-110 transition-all duration-150 ease-out"
+          />
+        </a>
 
         {/* Right - Mobile */}
         <div className="flex md:hidden space-x-2">
@@ -64,6 +70,7 @@ function Header({ onClick }) {
             mainClass="relative w-full bg-gray-100 p-1 rounded-md border-2 focus-within:border-black mb-2"
             searchIconClass="h-6 w-6 absolute top-2 left-2 text-gray-400"
             inputClass="bg-transparent pl-11 pr-8 h-8 text-lg outline-none w-full"
+            onClick={onClick}
           />
 
           <span className="text-md font-medium cursor-pointer transform hover:scale-110">
