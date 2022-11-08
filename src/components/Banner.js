@@ -4,7 +4,7 @@ function Banner({ onClick }) {
   return (
     <section className="bg-banner flex flex-col items-center justify-center h-500 px-4 shadow-md">
       <h1 className="text-4xl md:text-5xl text-white font-semibold text-center mb-4">
-        Download High Quality Images By Creaters
+        Download High Quality Images By Creators
       </h1>
       <p className="text-gray-300 text-lg md:text-xl text-center mb-10">
         Over 2.4 million stock images by our talented community
